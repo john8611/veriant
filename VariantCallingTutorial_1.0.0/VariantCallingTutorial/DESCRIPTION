@@ -1,0 +1,12 @@
+Package: VariantCallingTutorial
+Type: Package
+Version: 1.0.0
+Maintainer: Michael Lawrence <michafla@gene.com>
+License: Artistic 2.0
+Title: Calling Variants with R/Bioconductor
+Author: Michael Lawrence
+Description: Includes sample data and slides (vignette), with tangled code.
+Depends: GenomicRanges, IRanges (>= 1.22.10), VariantTools, gmapR,
+        VariantAnnotation, TxDb.Hsapiens.UCSC.hg19.knownGene, lattice,
+        BSgenome.Hsapiens.UCSC.hg19, org.Hs.eg.db, SRAdb
+Packaged: 2014-07-28 20:57:52 UTC; larman
